@@ -41,11 +41,16 @@
   }
   .price {
     color: #2b1503;
-    font-size: 20px;
+    font-size: 15px;
   }
+
   .original-prize {
-    font-size: 17px;
+    font-size: 13px;
     margin-left: 30px;
+  }
+
+  .product-name {
+    font-size: 17px;
   }
 
   .card button {

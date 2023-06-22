@@ -87,14 +87,15 @@ const CreateProductForm = () => {
                           onChange={(e) => setCategory(e.target.value)}
                       >
                         <option value=''>Select Category</option>
-                        <option value='Supermarket'>Supermarket</option>
-                        <option value='Computing'>Computing</option>
-                        <option value='Phones'>Phones</option>
-                        <option value='Travels'>Travels</option>
-                        <option value='Directions'>Directions</option>
-                        <option value='Books'>Books</option>
-                        <option value='Livestock'>Livestock</option>
-                        <option value='Applications'>Applications</option>
+                        <option value='SUPERMARKET'>Supermarket</option>
+                        <option value='COMPUTING'>Computing</option>
+                        <option value='PHONES'>Phones</option>
+                        <option value='TRAVELS'>Travels</option>
+                        <option value='ELECTRONICS'>Directions</option>
+                        <option value='BOOKS'>Books</option>
+                        <option value='BABY'>Baby Products</option>
+                        <option value='APPLICATIONS'>Applications</option>
+                        <option value='OTHERS'>Others</option>
 
                       </select>
                   </div>

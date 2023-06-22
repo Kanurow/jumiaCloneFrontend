@@ -1,7 +1,6 @@
 import React from 'react'
-import { AiFillAliwangwang, AiFillAndroid, AiFillApi, AiFillAppstore } from 'react-icons/ai'
-import { BiDirections } from 'react-icons/bi'
-import {  BsBookHalf, BsBusFront,   BsFillBuildingsFill, BsPcDisplay } from 'react-icons/bs'
+import { AiFillAndroid, AiFillApi, AiFillAppstore } from 'react-icons/ai'
+import {  BsBookHalf, BsBusFront,   BsFileMedical,   BsFillBuildingsFill, BsFillTicketPerforatedFill, BsPcDisplay } from 'react-icons/bs'
 import "./Home.css"
 import ImageSlider from '../components/ImageSlider';
 import ProductsCarousel from './ProductsCarousel'
@@ -42,8 +41,8 @@ export default function Home() {
         </Link>
 
         <div className='sidebar-link'>
-            <div className='sidebar-react-icon'><BiDirections size={20} /></div>
-            <div className='sidebar-text'>Directions</div>
+            <div className='sidebar-react-icon'><BsFillTicketPerforatedFill size={20} /></div>
+            <div className='sidebar-text'>Electronics</div>
         </div>
 
         <div className='sidebar-link'>
@@ -53,8 +52,8 @@ export default function Home() {
 
         
         <div className='sidebar-link'>
-            <div className='sidebar-react-icon'><AiFillAliwangwang size={20} /></div>
-            <div className='sidebar-text'>Livestock</div>
+            <div className='sidebar-react-icon'><BsFileMedical size={20} /></div>
+            <div className='sidebar-text'>Baby Products</div>
         </div>
 
         <div className='sidebar-link'>
